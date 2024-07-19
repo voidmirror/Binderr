@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS remote (uid uuid default random_uuid(), ip VARCHAR(255), control_sum VARCHAR(255), active BOOLEAN, PRIMARY KEY (uid));
