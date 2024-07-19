@@ -31,7 +31,7 @@ public class RemoteService {
         remoteRepository.deleteAll().subscribe();
     }
 
-    private String generateRandomIp() {
+    public String generateRandomIp() {
         Random random = new Random();
         StringBuilder sb = new StringBuilder();
         sb.append(random.nextInt(256));
