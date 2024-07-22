@@ -1,7 +1,7 @@
 package com.voidmirror.own;
 
 import org.mockito.Mock;
-import org.voidmirror.own.repository.RemoteRepository;
+import org.voidmirror.own.dao.RemoteRepository;
 
 public class BaseTest {
 

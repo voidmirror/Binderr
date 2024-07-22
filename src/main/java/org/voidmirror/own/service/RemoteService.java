@@ -3,11 +3,10 @@ package org.voidmirror.own.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.voidmirror.own.model.Remote;
-import org.voidmirror.own.repository.RemoteRepository;
+import org.voidmirror.own.dao.RemoteRepository;
 import reactor.core.publisher.Flux;
 
 import java.util.Random;
-import java.util.UUID;
 
 @Service
 public class RemoteService {
